@@ -1,18 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
+import 'package:learningapp/animatedtext.dart';
 import 'package:learningapp/api%20practice%20code/apiIntegeration.dart';
 import 'package:learningapp/api%20practice%20code/owninteger.dart';
 import 'package:learningapp/botton%20navigation%20Bar/bottomMainPage.dart';
 import 'package:learningapp/circleavatar.dart';
 import 'package:learningapp/containerproperty.dart';
 import 'package:learningapp/drawer.dart';
+import 'package:learningapp/fontAwesomeIcon.dart';
 import 'package:learningapp/form.dart';
 import 'package:learningapp/girdtile.dart';
 // import 'dart:html';
 import 'package:learningapp/listtile.dart';
 import 'package:learningapp/listview_builder.dart';
 import 'package:learningapp/listviewsforpratice.dart';
+import 'package:learningapp/pincodeText.dart';
+import 'package:learningapp/readmorePackage.dart';
 import 'package:learningapp/responsesiveness.dart';
+import 'package:learningapp/setFontFamily.dart';
 import 'package:learningapp/showdialog.dart';
 import 'package:learningapp/simpleloginpage.dart';
 import 'package:learningapp/stack.dart';
@@ -20,6 +25,7 @@ import 'package:learningapp/textstyle.dart';
 import 'package:learningapp/typeofbutton.dart';
 import 'package:learningapp/whatapp%20ui%20in%20listview_builder%20%20listtitle/mainpage.dart';
 
+import 'badgesPackage.dart';
 import 'gridview_count.dart';
 import 'navigator.dart';
 
@@ -56,7 +62,13 @@ class _MyAppState extends State<MyApp> {
 // body: listviewforpratice(),
 // body: girdview_count(),
 // body: drawerTest(),
-body: alert(),
+// body: alert(),
+// body: fontAwesomeIcons(),
+// body: Readmore(),
+// body: FontFamily(),
+// body: pincodeText(),
+// body: BadgesPackage(),
+body: animatedText(),
 // body: form(),
 // body: mainPageOfBotton(),
 // body: AppiIntegration(),
